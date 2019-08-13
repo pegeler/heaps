@@ -1,4 +1,4 @@
 CXX = g++
 
-heaps_nonrecursive: 
+heaps: 
 	$(CXX) $@.cpp -o $@
