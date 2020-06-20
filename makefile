@@ -1,4 +1,4 @@
-CXX = g++
+CXX = gcc
 
-heaps: 
-	$(CXX) $@.cpp -o $@
+heaps: heaps.c 
+	$(CXX) $< -o $@
