@@ -10,7 +10,7 @@
 
 void usage(char *prog)
 {
-  fprintf(stderr, "usage:\n%s n", prog);
+  fprintf(stderr, "usage:\n%s n\n", prog);
   exit(1);
 }
 
