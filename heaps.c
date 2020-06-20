@@ -16,9 +16,8 @@ void usage(char *prog)
 
 void print_array(int *a, int n)
 {
-  for (int i=0; i<n; i++) {
+  for (int i=0; i<n; i++)
     printf("%d%c", a[i], i < n -1 ? ' ' : '\n');
-  }
 }
 
 void swap(int *a, int *b)
